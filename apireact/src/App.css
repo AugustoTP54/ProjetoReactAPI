@@ -1,0 +1,65 @@
+/* Estilo de fundo com tema galático */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Estilo para o título principal */
+.film-header {
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem;
+  color: #66B2FF;
+}
+
+/* Estilo para a lista de filmes */
+.film-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para cada item da lista de filmes */
+.film-item {
+  border: 1px solid #222;
+  margin: 1rem;
+  padding: 1rem;
+  width: 45%;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(102, 178, 255, 0.5);
+  color: #fff;
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para o título do filme */
+.film-title {
+  font-size: 1.5em; /* Aumentei o tamanho da fonte */
+  margin: 0;
+  color: #66B2FF;
+}
+
+/* Estilo para a imagem do filme */
+.film-info img {
+  display: block;
+  margin: 10px auto; /* Centraliza a imagem e adiciona espaço entre o título e a imagem */
+}
+
+/* Estilo para a descrição do filme */
+.film-description {
+  font-size: 0.9em;
+  color: #fff; /* Alterei a cor do texto para branco */
+}
+
+/* Estilo para o link "Ver mais informações" */
+.film-link {
+  color: #66B2FF;
+  text-decoration: none;
+}
+
+.film-link:hover {
+  text-decoration: underline;
+}
+
